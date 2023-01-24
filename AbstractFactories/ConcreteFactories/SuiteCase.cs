@@ -43,7 +43,7 @@ public class SuiteCase : CaseFactory
       if (item.type.Equals(_teddy.type))
       {
         StuffedAnimal animal = (StuffedAnimal)item;
-        Console.WriteLine($"the elphant plushy rudely remarked, \"{animal.phrase}\",\nto the suitecase nome as he packed him away for a plane ride.\n");
+        Console.WriteLine($"the elphant plushy rudely remarked, \"{animal.phrase}\",\nto the suitecase nome as he was packed away for a plane ride.\n");
       }
     }
     return items;
