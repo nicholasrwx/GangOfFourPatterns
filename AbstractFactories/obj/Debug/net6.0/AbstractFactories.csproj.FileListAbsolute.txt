@@ -1,0 +1,15 @@
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/bin/Debug/net6.0/AbstractFactories
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/bin/Debug/net6.0/AbstractFactories.deps.json
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/bin/Debug/net6.0/AbstractFactories.runtimeconfig.json
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/bin/Debug/net6.0/AbstractFactories.dll
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/bin/Debug/net6.0/AbstractFactories.pdb
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/AbstractFactories.csproj.AssemblyReference.cache
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/AbstractFactories.GeneratedMSBuildEditorConfig.editorconfig
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/AbstractFactories.AssemblyInfoInputs.cache
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/AbstractFactories.AssemblyInfo.cs
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/AbstractFactories.csproj.CoreCompileInputs.cache
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/AbstractFactories.dll
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/refint/AbstractFactories.dll
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/AbstractFactories.pdb
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/AbstractFactories.genruntimeconfig.cache
+/home/eternal/Code/C#_/coding_patterns/AbstractFactories/obj/Debug/net6.0/ref/AbstractFactories.dll
