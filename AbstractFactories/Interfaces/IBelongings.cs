@@ -1,4 +1,4 @@
-public interface IBelonging
+public interface IBelongings
 {
   public abstract string brand { get; }
   public abstract string color { get; }

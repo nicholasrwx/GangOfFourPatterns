@@ -1,4 +1,4 @@
-public abstract class StuffedAnimal : IBelonging
+public abstract class StuffedAnimal : IBelongings
 {
   public abstract string brand { get; }
   public abstract string color { get; }

@@ -1,4 +1,4 @@
-public abstract class Underwear : IBelonging
+public abstract class Underwear : IBelongings
 {
   public abstract string brand { get; }
   public abstract string color { get; }

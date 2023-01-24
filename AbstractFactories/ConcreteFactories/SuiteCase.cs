@@ -28,14 +28,14 @@ public class SuiteCase : CaseFactory
     }
   }
 
-  public List<IBelonging> SuiteCaseNome()
+  public List<IBelongings> SuiteCaseNome()
   {
     return PackTheSuiteCase(_underwear, _jeans, _jacket, _socks, _shirt, _teddy);
   }
 
-  public List<IBelonging> PackTheSuiteCase(params IBelonging[] suitcaseItems)
+  public List<IBelongings> PackTheSuiteCase(params IBelongings[] suitcaseItems)
   {
-    List<IBelonging> items = new List<IBelonging>();
+    List<IBelongings> items = new List<IBelongings>();
 
     foreach (var item in suitcaseItems)
     {
