@@ -1,4 +1,4 @@
 # Pattern Notes
 
-* [Abstract Factories](docs/AbstractFactories.md)
-* [Builders](docs/Builders.md)
+* [Abstract Factories](Docs/AbstractFactories.md)
+* [Builders](Docs/Builders.md)
