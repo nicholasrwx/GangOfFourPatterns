@@ -1,3 +1,4 @@
-# Abstract Factories
+# Pattern Notes
 
-[Documentation](docs/notes.md)
+* [Abstract Factories](docs/AbstractFactories.md)
+* [Builders](docs/Builders.md)
