@@ -16,12 +16,11 @@ public class Aircraft
   public void Show()
   {
     Console.WriteLine("\n---------------------------");
-    Console.WriteLine(" Vehicle Type: {0}", _aircraftType);
+    Console.WriteLine(" Aircraft Type: {0}", _aircraftType);
     Console.WriteLine(" Cockpit : {0}", _parts["cockpit"]);
     Console.WriteLine(" Frame : {0}", _parts["frame"]);
     Console.WriteLine(" Engine : {0}", _parts["engine"]);
     Console.WriteLine(" WeaponSystems: {0}", _parts["weaponSystems"]);
     Console.WriteLine(" ElectronicSystems : {0}", _parts["electronicSystems"]);
-    Console.WriteLine(" LandingGear : {0}", _parts["landingGear"]);
   }
 };
