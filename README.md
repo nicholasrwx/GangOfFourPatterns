@@ -2,7 +2,9 @@
 
 **DoFactory Patterns:**
 
-* [Abstract Factories](Docs/AbstractFactories.md)
-* [Builders](Docs/Builders.md)
+- [Abstract Factories](Docs/DoFactoryPatterns/AbstractFactories.md)
+- [Builders](Docs/DoFactoryPatterns/Builders.md)
 
 **Udemy Patterns:**
+
+- [Fluent Builder](Docs/Udemy/FluentBuilder.md)
