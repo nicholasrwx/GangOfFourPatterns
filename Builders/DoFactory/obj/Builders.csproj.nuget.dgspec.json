@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/eternal/Code/C#_/coding_patterns/Builders/Builders.csproj": {}
+    "/home/eternal/Code/C#_/coding_patterns/Builders/DoFactory/Builders.csproj": {}
   },
   "projects": {
-    "/home/eternal/Code/C#_/coding_patterns/Builders/Builders.csproj": {
+    "/home/eternal/Code/C#_/coding_patterns/Builders/DoFactory/Builders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eternal/Code/C#_/coding_patterns/Builders/Builders.csproj",
+        "projectUniqueName": "/home/eternal/Code/C#_/coding_patterns/Builders/DoFactory/Builders.csproj",
         "projectName": "Builders",
-        "projectPath": "/home/eternal/Code/C#_/coding_patterns/Builders/Builders.csproj",
+        "projectPath": "/home/eternal/Code/C#_/coding_patterns/Builders/DoFactory/Builders.csproj",
         "packagesPath": "/home/eternal/.nuget/packages/",
-        "outputPath": "/home/eternal/Code/C#_/coding_patterns/Builders/obj/",
+        "outputPath": "/home/eternal/Code/C#_/coding_patterns/Builders/DoFactory/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
