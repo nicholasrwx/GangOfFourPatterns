@@ -1,7 +1,6 @@
 ### Overview
 
-	Abstract factories are creational design patterns. They are used for creating families of related or dependent objects.
-	You could think of an abstract as a template for a concrete class.
+Abstract factories are creational design patterns. They are used for creating families of related or dependent objects. You could think of an abstract as a template for a concrete class.
 
 ### Classes and objects participating in this pattern include:
 
