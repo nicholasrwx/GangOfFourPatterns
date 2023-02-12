@@ -1,11 +1,16 @@
 public class PlaneInfoBuilder
 {
-  protected Plane plane = new Plane();
+  protected Planes planes = new Planes();
 
-  public PlaneInfoBuilder called(string name, string type)
+  public PlaneInfoBuilder Call(string name, string type)
   {
-    plane.Name = name;
-    plane.Type = type;
+    planes.Names.Add(name);
+    planes.Types.Add(type);
     return this;
+  }
+
+  public override string ToString()
+  {
+    return planes.BuildString();
   }
 }
