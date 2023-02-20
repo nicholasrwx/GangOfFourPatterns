@@ -15,7 +15,6 @@ public class Planes
         PlaneList += $", {nameof(type)}: {type}\n";
         break;
       }
-
     }
 
     return PlaneList;
