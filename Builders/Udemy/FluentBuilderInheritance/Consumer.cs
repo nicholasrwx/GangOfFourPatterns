@@ -1,24 +1,55 @@
 public class Consumer
 {
-  public string Name { get; set; }
-  public List<string> OccupationalHistory { get; set; }
-  public List<string> RecreationalHistory { get; set; }
-  public List<string> ContentsConsumed { get; set; }
-  public int Health { get; set; }
+
+  public Consumer()
+  {
+    this._name = "";
+    this._occupationalHistory = new List<string>();
+    this._recreationalHistory = new List<string>();
+    this._contentsConsumed = new List<string>();
+    this._health = 0;
+  }
 
   public string ConsumerInfo()
   {
-    var consumer = $"Consumer: {Name}";
-    var occupations = $"Occupational History: {OccupationalHistory.Select(occupation => occupation)}";
-    var recreation = $"Recreational History: {RecreationalHistory.Select(recreation => recreation)}";
+    var consumer = $"Consumer: {_name}";
+    var occupations = "Occupational History: ";
+    var recreations = $"Recreational History: ";
 
-    return $"{consumer}\n{occupations}\n{recreation}";
+    occupations += Consumer.ToString(_occupationalHistory);
+    recreations += Consumer.ToString(_recreationalHistory);
+
+    return $"{consumer}\n{occupations}\n{recreations}";
   }
 
   public string HealthInfo()
   {
-    var consumption = $"Contents Consumed: {ContentsConsumed.Select(content => content)}";
-    var healthImpact = $"Health Impact: +{Health}";
-    return $"{consumption}\n{healthImpact}";
+    var consumptions = $"Contents Consumed: ";
+    var healthImpact = $"Health Impact: +{_health}";
+
+    consumptions += Consumer.ToString(_contentsConsumed);
+
+    return $"{consumptions}\n{healthImpact}";
   }
+
+  static string ToString(List<string> titles)
+  {
+    var result = "";
+
+    foreach (var title in titles)
+    {
+      if (titles.IndexOf(title) == titles.Count - 1)
+        result += $"{title}.";
+      else
+        result += $"{title}, ";
+    }
+
+    return result;
+  }
+
+  public string _name;
+  public List<string> _occupationalHistory;
+  public List<string> _recreationalHistory;
+  public List<string> _contentsConsumed;
+  public int _health;
 }

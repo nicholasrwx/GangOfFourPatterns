@@ -1,21 +1,22 @@
 public class ConsumerInfoBuilder
 {
-  public Consumer consumer = new Consumer();
+  public Consumer _consumer = new Consumer();
 
-  public ConsumerInfoBuilder(string name)
+  public ConsumerInfoBuilder AddConsumerName(string name)
   {
-    consumer.Name = name;
+    _consumer._name = name;
+    return this;
   }
 
   public ConsumerInfoBuilder AddOccupation(string occupation)
   {
-    consumer.OccupationalHistory.Add(occupation);
+    _consumer._occupationalHistory.Add(occupation);
     return this;
   }
 
   public ConsumerInfoBuilder AddRecreation(string recreation)
   {
-    consumer.RecreationalHistory.Add(recreation);
+    _consumer._recreationalHistory.Add(recreation);
     return this;
   }
 }

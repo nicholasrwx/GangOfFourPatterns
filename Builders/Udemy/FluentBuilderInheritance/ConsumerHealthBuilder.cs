@@ -1,19 +1,16 @@
 //Object that inherits from fluent builder
 public class ConsumerHealthBuilder : ConsumerInfoBuilder
 {
-  public ConsumerHealthBuilder(string name) : base(name)
-  {
-  }
 
   public ConsumerHealthBuilder AddConsumableContent(string content)
   {
-    consumer.ContentsConsumed.Add(content);
+    _consumer._contentsConsumed.Add(content);
     return this;
   }
 
   public ConsumerHealthBuilder UpdateHealth(int healthIncrement)
   {
-    consumer.Health += healthIncrement;
+    _consumer._health += healthIncrement;
     return this;
   }
 }
