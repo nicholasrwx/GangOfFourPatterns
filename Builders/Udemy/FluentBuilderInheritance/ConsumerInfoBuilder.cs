@@ -1,22 +1,21 @@
-public class ConsumerInfoBuilder
+public class ConsumerInfoBuilder<SELF> : ConsumerBuilder where SELF : ConsumerInfoBuilder<SELF>
 {
-  public Consumer _consumer = new Consumer();
 
-  public ConsumerInfoBuilder AddConsumerName(string name)
+  public SELF AddConsumerName(string name)
   {
     _consumer._name = name;
-    return this;
+    return (SELF)this;
   }
 
-  public ConsumerInfoBuilder AddOccupation(string occupation)
+  public SELF AddOccupation(string occupation)
   {
     _consumer._occupationalHistory.Add(occupation);
-    return this;
+    return (SELF)this;
   }
 
-  public ConsumerInfoBuilder AddRecreation(string recreation)
+  public SELF AddRecreation(string recreation)
   {
     _consumer._recreationalHistory.Add(recreation);
-    return this;
+    return (SELF)this;
   }
 }

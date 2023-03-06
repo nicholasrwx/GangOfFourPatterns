@@ -1,16 +1,22 @@
 //Object that inherits from fluent builder
-public class ConsumerHealthBuilder : ConsumerInfoBuilder
+public class ConsumerHealthBuilder<SELF> : ConsumerInfoBuilder<ConsumerHealthBuilder<SELF>> where SELF : ConsumerHealthBuilder<SELF>
 {
 
-  public ConsumerHealthBuilder AddConsumableContent(string content)
+  public SELF AddConsumableContent(IFoodProducts product)
   {
-    _consumer._contentsConsumed.Add(content);
-    return this;
+    foreach (var content in product.Contents)
+    {
+      _consumer._contentsConsumed.Add(content);
+    }
+
+    this.UpdateHealth(product.HealthImpact);
+
+    return (SELF)this;
   }
 
-  public ConsumerHealthBuilder UpdateHealth(int healthIncrement)
+  public SELF UpdateHealth(int healthIncrement)
   {
     _consumer._health += healthIncrement;
-    return this;
+    return (SELF)this;
   }
 }

@@ -47,6 +47,13 @@ public class Consumer
     return result;
   }
 
+  public class Builder : ConsumerHealthBuilder<Builder>
+  {
+
+  }
+
+  public static Builder New => new Builder();
+
   public string _name;
   public List<string> _occupationalHistory;
   public List<string> _recreationalHistory;

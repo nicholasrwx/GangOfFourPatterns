@@ -1,5 +1,5 @@
-public sealed class Chips
+public sealed class Chips : IFoodProducts
 {
-  public static List<string> Contents = new List<string>() { "Sugar", "Salt", "Carbohydrates", "Fat" };
-  public static int healthImpact = 20;
+  public List<string> Contents { get; } = new List<string>() { "Sugar", "Salt", "Carbohydrates", "Fat" };
+  public int HealthImpact { get; } = 20;
 }

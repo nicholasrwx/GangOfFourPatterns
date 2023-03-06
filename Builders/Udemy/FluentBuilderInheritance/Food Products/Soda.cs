@@ -1,5 +1,5 @@
-public sealed class Soda
+public sealed class Soda : IFoodProducts
 {
-  public static List<string> Contents = new List<string>() { "Sugar", "Caffeine", "Carbonation" };
-  public static int healthImpact = 10;
+  public List<string> Contents { get; } = new List<string>() { "Sugar", "Caffeine", "Carbonation" };
+  public int HealthImpact { get; } = 10;
 }

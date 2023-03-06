@@ -1,11 +1,12 @@
-﻿var consumerBuilder = new ConsumerInfoBuilder();
-
-consumerBuilder.AddConsumerName("James")
+﻿var consumerBuilder = Consumer.New.AddConsumerName("James")
                .AddOccupation("Fireman")
                .AddOccupation("Truck Driver")
                .AddOccupation("Engineer")
                .AddRecreation("KungFu")
                .AddRecreation("Hockey")
-               .AddRecreation("Sky Diving");
+               .AddRecreation("Sky Diving")
+               .AddConsumableContent(new Soda())
+               .AddConsumableContent(new Chips());
 
 Console.WriteLine(consumerBuilder._consumer.ConsumerInfo());
+Console.WriteLine(consumerBuilder._consumer.HealthInfo());

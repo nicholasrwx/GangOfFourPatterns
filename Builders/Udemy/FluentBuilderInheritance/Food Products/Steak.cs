@@ -1,5 +1,5 @@
-public sealed class Steak
+public sealed class Steak : IFoodProducts
 {
-  public static List<string> Contents = new List<string>() { "Proteine", "Vitamin B", "Fat" };
-  public static int healthImpact = 60;
+  public List<string> Contents { get; } = new List<string>() { "Proteine", "Vitamin B", "Fat" };
+  public int HealthImpact { get; } = 60;
 }
