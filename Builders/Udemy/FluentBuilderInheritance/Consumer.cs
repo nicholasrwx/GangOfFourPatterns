@@ -14,25 +14,25 @@ public class Consumer
   {
     var consumer = $"Consumer: {_name}";
     var occupations = "Occupational History: ";
-    var recreations = $"Recreational History: ";
+    var recreations = "Recreational History: ";
 
-    occupations += Consumer.ToString(_occupationalHistory);
-    recreations += Consumer.ToString(_recreationalHistory);
+    occupations += Consumer.StringBuilder(_occupationalHistory);
+    recreations += Consumer.StringBuilder(_recreationalHistory);
 
     return $"{consumer}\n{occupations}\n{recreations}";
   }
 
   public string HealthInfo()
   {
-    var consumptions = $"Contents Consumed: ";
+    var consumptions = "Contents Consumed: ";
     var healthImpact = $"Health Impact: +{_health}";
 
-    consumptions += Consumer.ToString(_contentsConsumed);
+    consumptions += Consumer.StringBuilder(_contentsConsumed);
 
     return $"{consumptions}\n{healthImpact}";
   }
 
-  static string ToString(List<string> titles)
+  static string StringBuilder(List<string> titles)
   {
     var result = "";
 
