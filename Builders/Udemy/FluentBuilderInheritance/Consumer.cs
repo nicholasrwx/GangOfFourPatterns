@@ -52,6 +52,8 @@ public class Consumer
 
   }
 
+  // This is done statically because you cannot call an instance method from a static method
+  // So when you try and call this from the static main method, it won't error out this way
   public static Builder New => new Builder();
 
   public string _name;

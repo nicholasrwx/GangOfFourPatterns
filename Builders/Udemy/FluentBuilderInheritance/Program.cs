@@ -7,7 +7,8 @@
                               .AddRecreation("Hockey")
                               .AddRecreation("Sky Diving")
                               .AddConsumableContent(new Soda())
-                              .AddConsumableContent(new Chips());
+                              .AddConsumableContent(new Chips())
+                              .Build();
 
-Console.WriteLine(consumerBuilder._consumer.ConsumerInfo());
-Console.WriteLine(consumerBuilder._consumer.HealthInfo());
+Console.WriteLine(consumerBuilder.ConsumerInfo());
+Console.WriteLine(consumerBuilder.HealthInfo());
