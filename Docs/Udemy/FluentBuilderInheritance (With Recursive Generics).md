@@ -26,7 +26,7 @@ This is a very difficult and confusing concept to understand, but it can be done
 - **Builder** (Child Builder Class)
 	- This is the farthest derived class
 	-  This class is used to satisfy the generic parameter of the Child Fluent Builder Class. 
-	- Since the generic parameter for the child fluent builder needs to be a derived type of itself which takes a parameter of the derived type... This becomes out starting point for the recursive generic piece of this logic.
+	- Since the generic parameter for the child fluent builder needs to be a derived type of itself which takes a parameter of the derived type... This becomes our starting point for the recursive generic piece of this logic.
 	- This is necessary, because you could not instantiate the child fluent builder without having a derived type to pass to it in the first place.
 	- There is no implementation in this class, and is used to expose the fluent builder interfaces. It can exist on its own or be kept on the product class.
 
