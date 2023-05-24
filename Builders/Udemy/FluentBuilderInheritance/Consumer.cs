@@ -47,6 +47,9 @@ public class Consumer
     return result;
   }
 
+  // Due to the constraints, in the Child Fluent Builder, SELF has to be an object that inherits from ConsumerHealthBuilder<SELF>
+  // So, the Builder class in this case, does just that. Builder = SELF, and is passed in as the generic parameter
+  // When a generic is declared, the name can be anything (like SELF), when it's used it has to be given a value like below
   public class Builder : ConsumerHealthBuilder<Builder>
   {
 
