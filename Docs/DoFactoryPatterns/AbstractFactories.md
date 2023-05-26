@@ -19,3 +19,5 @@ Abstract factories are creational design patterns. They are used for creating fa
 ### Sources
 
 [abstract-factory-design-pattern](https://dofactory.com/net/abstract-factory-design-pattern)
+
+[![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
