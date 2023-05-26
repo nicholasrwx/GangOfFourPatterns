@@ -17,3 +17,5 @@ In OOP this is a common design, and it is called a Fluent Interface.
   	  
 ### Sources:
 [Design Patterns in C# and .NET - Builder: Fluent Builder](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
+
+[![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
