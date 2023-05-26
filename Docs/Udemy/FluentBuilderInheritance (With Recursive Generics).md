@@ -39,3 +39,5 @@ This is a very difficult and confusing concept to understand, but it can be done
 
 ### Sources:
 [Design Patterns in C# and .NET - Builder: Fluent Builder Inheritance With Recursive Generics](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
+
+[![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
