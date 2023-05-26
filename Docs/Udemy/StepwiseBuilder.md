@@ -14,4 +14,4 @@ paragraph text here
 ### **Sources:**
 [Design Patterns in C# and .NET - Builder: Stepwise Builder](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
-[![image](https://github.com/nicholasrwx/GangOfFourPatterns/assets/73451654/6d78a681-a9f9-4895-8e6d-38a77f44a94e)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
+[![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
