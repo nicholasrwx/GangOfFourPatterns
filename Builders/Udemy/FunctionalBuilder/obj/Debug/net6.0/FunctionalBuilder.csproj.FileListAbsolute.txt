@@ -1,0 +1,15 @@
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/bin/Debug/net6.0/FunctionalBuilder
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/bin/Debug/net6.0/FunctionalBuilder.deps.json
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/bin/Debug/net6.0/FunctionalBuilder.runtimeconfig.json
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/bin/Debug/net6.0/FunctionalBuilder.dll
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/bin/Debug/net6.0/FunctionalBuilder.pdb
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/FunctionalBuilder.csproj.AssemblyReference.cache
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/FunctionalBuilder.GeneratedMSBuildEditorConfig.editorconfig
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/FunctionalBuilder.AssemblyInfoInputs.cache
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/FunctionalBuilder.AssemblyInfo.cs
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/FunctionalBuilder.csproj.CoreCompileInputs.cache
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/FunctionalBuilder.dll
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/refint/FunctionalBuilder.dll
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/FunctionalBuilder.pdb
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/FunctionalBuilder.genruntimeconfig.cache
+/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/Debug/net6.0/ref/FunctionalBuilder.dll

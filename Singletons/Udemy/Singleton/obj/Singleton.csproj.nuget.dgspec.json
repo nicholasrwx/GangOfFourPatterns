@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/FunctionalBuilder.csproj": {}
+    "/home/eternal/Code/C#_/coding_patterns/Singletons/Udemy/Singleton/Singleton.csproj": {}
   },
   "projects": {
-    "/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/FunctionalBuilder.csproj": {
+    "/home/eternal/Code/C#_/coding_patterns/Singletons/Udemy/Singleton/Singleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/FunctionalBuilder.csproj",
-        "projectName": "FunctionalBuilder",
-        "projectPath": "/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/FunctionalBuilder.csproj",
+        "projectUniqueName": "/home/eternal/Code/C#_/coding_patterns/Singletons/Udemy/Singleton/Singleton.csproj",
+        "projectName": "Singleton",
+        "projectPath": "/home/eternal/Code/C#_/coding_patterns/Singletons/Udemy/Singleton/Singleton.csproj",
         "packagesPath": "/home/eternal/.nuget/packages/",
-        "outputPath": "/home/eternal/Code/C#_/coding_patterns/Builders/Udemy/FunctionalBuilder/obj/",
+        "outputPath": "/home/eternal/Code/C#_/coding_patterns/Singletons/Udemy/Singleton/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.410/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
     }
