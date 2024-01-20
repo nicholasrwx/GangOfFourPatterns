@@ -1,4 +1,4 @@
-public abstract class FunctionalBuilder<TSubject, TSelf> where TSelf : FunctionalBuilder<TSubject, TSelf> where TSubject: new()
+public abstract class AlienBuilder<TSubject, TSelf> where TSelf : AlienBuilder<TSubject, TSelf> where TSubject: new()
 {
     // Preserve a list of mutating functions
     private readonly List<Func<Alien, Alien>> actions = new List<Func<Alien, Alien>>();
@@ -11,7 +11,7 @@ public abstract class FunctionalBuilder<TSubject, TSelf> where TSelf : Functiona
     }
 }
 
-public sealed class FluentAlienBuilder : FunctionalBulider<Alien, AlienBuilder>
+public sealed class FluentAlienBuilder : AlienBuilder<Alien, FluentAlienBuilder>
 {
     public FluentAlienBuilder Called(string name) => Do(p => p.Name = name);
 }
