@@ -1,8 +1,4 @@
 .obsidian
 .vs/
-Builders/DoFactory/obj/
-Builders/Udemy/FluentBuilder/obj/
-Builders/Udemy/FluentBuilderInheritance/obj/
-Builders/Udemy/FunctionalBuilder/obj/
-Builders/Udemy/StepwiseBuilder/obj/
-Singletons/Udemy/Singleton/obj/
+**/bin
+**/obj
