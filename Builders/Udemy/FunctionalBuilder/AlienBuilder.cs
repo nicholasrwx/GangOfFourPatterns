@@ -9,14 +9,14 @@ public sealed class AlienBuilder
 
   public Alien Build() => actions.Aggregate(new Alien(), (p, f) => f(p));
 
-  // This action parameter gets turned into a func 
+  // This action parameter gets turned into a func
   // and added to the actions list of mutating functions
   // This is done to preserve a fluent interface
-  // The reason we want to preserve a fluent interface 
-  // is because we want to use the aggregate link method 
+  // The reason we want to preserve a fluent interface
+  // is because we want to use the aggregate link method
   //in order to apply all the functions one after another
 
-  //This is a fluent interface because this method returns the containing object, 
+  //This is a fluent interface because this method returns the containing object,
   //allowing a user to call the method over and over.
   private AlienBuilder AddAction(Action<Alien> action)
   {
