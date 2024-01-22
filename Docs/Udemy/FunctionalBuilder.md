@@ -1,9 +1,9 @@
-### **Overview:**
+### Overview:
 
 A functional builder uses a series of functions to build out an object.
 This builder has several methods that aid in the process of setting up a list of delegates used to build an instance of an object.
 
-### **Classes and objects participating in this pattern include:**
+### Classes and objects participating in this pattern include:
 
 - **Alien**
 	- The Type of object we are going to build.
@@ -29,7 +29,7 @@ This builder has several methods that aid in the process of setting up a list of
 	- The FluentBuilder, upgraded to use generics, is now reusable as it could work with nearly any 'Type' a person wishes to build
 
 
-### **Sources:**
+### Sources:
 [Design Patterns in C# and .NET - Builder: Functional Builder](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
 [![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
