@@ -13,3 +13,8 @@
 - [Functional Builder](Docs/Udemy/FunctionalBuilder.md)
 - [Faceted Builder](Docs/Udemy/FacetedBuilder.md)
 
+- [Factory](Docs/Udemy/Factory.md)
+- [Factory Method](Docs/Udemy/AsyncFactoryMethod.md)
+- [Async Factory Method](Docs/Udemy/FactoryMethod.md)
+
+
