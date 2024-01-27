@@ -1,9 +1,12 @@
-﻿var defaultSign = Sign.DefaultSignOrder("Stop", "Road Sign", "Hexagon");
-var customSign = Sign.Factory.CustomSignOrder("No Public Access", "Gate Sign", "Rectangle", 300, "195 lbs");
-var blankSign = Sign.Factory.BlankCustomSignOrder(1000, "540 lbs");
+﻿var defaultSigns = Sign.DefaultSignOrder("Stop", "Road Sign", "Hexagon");
+var customSigns = Sign.Factory.CustomSignOrder("No Public Access", "Gate Sign", "Rectangle", 300, "195 lbs");
+var blankSigns = Sign.Factory.BlankCustomSignOrder(1000, "540 lbs");
+var smileSigns = Sign.PremadeSmileSignOrder;
+var naanSigns = Sign.PremadeNaanCatSignOrder;
 
-
-Console.WriteLine(defaultSign.ToString());
-Console.WriteLine(customSign.ToString());
-Console.WriteLine(blankSign.ToString());
+Console.WriteLine(defaultSigns.ToString());
+Console.WriteLine(customSigns.ToString());
+Console.WriteLine(blankSigns.ToString());
+Console.WriteLine(smileSigns.ToString());
+Console.WriteLine(naanSigns.ToString());
 

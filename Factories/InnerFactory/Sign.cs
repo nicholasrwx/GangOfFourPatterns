@@ -15,17 +15,20 @@ public class Sign
         this.OrderWeight = orderWeight;
     }
 
-    public override string ToString()
-    {
-        return $"Sign Text: {Text}\nSign Type: {Type}\nSign Shape: {Shape}\nOrder Size: {OrderSize}\nOrder Shape: {OrderWeight}\n\n";
-    }
-
+    // This Factory Method is used to create an order with a default order size / weight
     public static Sign DefaultSignOrder(string text, string type, string shape)
     {
         return new Sign(text, type, shape);
     }
+    
+    // This static Property is used to return a new premade sign order everytime it is called
+    public static Sign PremadeSmileSignOrder => new Sign("Smilie Face Emoji", "Wall Sign", "Circular");
 
+    // This static Field is used to access the same premade sign order every time it is called
+    public static Sign PremadeNaanCatSignOrder = new Sign("Naan Cat Emoji", "Wall Sign", "Square");
 
+    // This is an inner factory used to provide additional sign construction abilities
+    // It's also a way to construct an object using a factory, when the object has a private constructor
     public static class Factory
     {
 
@@ -39,4 +42,11 @@ public class Sign
             return new Sign(string.Empty, string.Empty, string.Empty, orderSize, orderWeight);
         }
     }
+
+
+    public override string ToString()
+    {
+        return $"Sign Text: {Text}\nSign Type: {Type}\nSign Shape: {Shape}\nOrder Size: {OrderSize}\nOrder Shape: {OrderWeight}\n\n";
+    }
+
 }
