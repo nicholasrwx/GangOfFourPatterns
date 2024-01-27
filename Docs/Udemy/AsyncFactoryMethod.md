@@ -11,6 +11,6 @@ An asynchronous factory method is useful in scenarios where the creation of an o
 	- PropperSticker demonstrates a class that contains a proper asynchronous factory method. The Factory method creates and initializes the containing class first. Then it calls the other async method in the class which runs the async task. The benefit here is that you don't expose the contained logic, an instance of the object is always created, and initialization can be done asynchronously.
 
 ### **Sources:**
-[Design Patterns in C# and .NET - Builder: Asynchronous Factory Method](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
+[Design Patterns in C# and .NET - Factory: Asynchronous Factory Method](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
 [![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)

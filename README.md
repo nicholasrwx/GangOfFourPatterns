@@ -16,5 +16,6 @@
 - [Factory](Docs/Udemy/Factory.md)
 - [Factory Method](Docs/Udemy/AsyncFactoryMethod.md)
 - [Async Factory Method](Docs/Udemy/FactoryMethod.md)
+- [Object Tracking And Bulk Replacement](Docs/Udemy/ObjectTrackingAndBulkReplacement.md)
 
 

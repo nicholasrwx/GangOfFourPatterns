@@ -11,6 +11,6 @@ A Factory is a class designed specifically for the creation / construction of an
 	- The Factory is designed to perform some complex logic used in the construction of the Count object. Its Factory Methods take in values, and uses them to create what is needed to construct the count object, and then return a new instance of that count object. Additionally, it keeps the construction logic separate from the client logic.
 
 ### **Sources:**
-[Design Patterns in C# and .NET - Builder: Factory](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
+[Design Patterns in C# and .NET - Factory: Factory](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
 [![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
