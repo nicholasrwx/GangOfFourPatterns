@@ -12,5 +12,8 @@
 - [Factory Method](Docs/Factory/AsyncFactoryMethod.md)
 - [Async Factory Method](Docs/Factory/FactoryMethod.md)
 - [Object Tracking And Bulk Replacement](Docs/Factory/ObjectTrackingAndBulkReplacement.md)
+- [Inner Factory](Docs/Factory/InnerFactory.md)
+- [Abstract Factory](Docs/Factory/AbstractFactory.md)
+- [Abstract Factory OCP](Docs/Factory/AbstractFactoryOCP.md)
 
 
