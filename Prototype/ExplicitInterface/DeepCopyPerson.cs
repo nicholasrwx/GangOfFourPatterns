@@ -1,4 +1,4 @@
-public class DeepCopyPerson
+public class DeepCopyPerson : IPrototype<DeepCopyPerson>
 {
     public string[] Names;
     public DeepCopyAddress Address;
@@ -9,12 +9,9 @@ public class DeepCopyPerson
         Address = address ?? throw new ArgumentNullException(paramName: nameof(address));
     }
 
-    // This is a Copy Constructor
-    // It sets the Fields of a new instance from a copied object
-    public DeepCopyPerson(DeepCopyPerson other)
+    public DeepCopyPerson DeepCopy()
     {
-        Names = other.Names;
-        Address = new DeepCopyAddress(other.Address);
+        return new DeepCopyPerson(Names, Address.DeepCopy());
     }
 
     public override string ToString()
