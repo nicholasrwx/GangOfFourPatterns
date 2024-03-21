@@ -17,7 +17,9 @@ public class Person : IDeepCopyable<Person>
     public void CopyTo(Person target)
     {
         target.Names = (string[]) Names.Clone();
-        target.Address = ((IDeepCopyable<Address>)Address).DeepCopy(); // broken ( for now )
+
+        // Using Extension Method
+        target.Address = Address.DeepCopy(); 
     }
 
     //  public Person DeepCopy()
