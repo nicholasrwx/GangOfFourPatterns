@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Text;
+using System.Xml.Serialization;
 using Newtonsoft.Json;
 
 public static class ExtensionMethods
@@ -31,15 +32,26 @@ public static class ExtensionMethods
         // Convert Binary back to String representation
         var result = reader.ReadString();
 
-        // Convert JSON String back to an Object        
+        // Convert JSON String back to an Object 
         return JsonConvert.DeserializeObject<T>(result);
     }
 
-    /*
     public static T DeepCopyXml<T>(this T self)
     {
-        return (T) copy;
-    }
-    */
+        // Using statement will automatically close the stream
+        using (var stream = new MemoryStream())
+        {
+            // Setup the XML Serializer
+            var xml = new XmlSerializer(typeof(T));
+            
+            // Convert to XML String and Write To Stream 
+            xml.Serialize(stream, self);
 
+            // Reset the position in the current stream
+            stream.Position = 0;
+
+            //Convert XML String back to an Object
+            return (T) xml.Deserialize(stream);
+        }
+    }
 }
