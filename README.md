@@ -1,6 +1,4 @@
-# Pattern Notes
-
-**Design Pattern Docs:**
+# **Design Pattern Docs:**
 
 - [Fluent Builder](Docs/Builder/FluentBuilder.md)
 - [Fluent Builder Inheritance With Recursive Generics](<Docs/Builder/FluentBuilderInheritance%20(With%20Recursive%20Generics).md>)
