@@ -1,8 +1,16 @@
 namespace DetectingDecoratorCycles;
 
-public class ColoredShape(IShape shape, string color) : IShape
+public class ColoredShape
+    : TShapeDecorator<ColoredShape, ThrowOnCyclePolicy>
+    // : ShapeDecoratorWithPolicy<ColoredShape>
 {
-    private IShape shape = shape ?? throw new ArgumentNullException(paramName: nameof(shape));
-    private string color = color ?? throw new ArgumentNullException(paramName: nameof(color));
-    public string AsString() => $"{shape.AsString()} has the color {color}";
+    private readonly string _color;
+    public ColoredShape(IShape shape, string color) : base(shape)
+    {
+        // this._shape = shape;
+        this._color = color;
+
+    }
+
+public string AsString() => $"{_shape.AsString()} has the color {_color}";
 };

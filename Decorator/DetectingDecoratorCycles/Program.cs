@@ -1,11 +1,9 @@
 ﻿// We are applying decorators upon decorators
 // Additionally, you can apply the same decorator twice
 
-var square = new Square(1.23f);
-WriteLine(square.AsString());
+var circle = new Circle(2);
 
-var redSquare = new ColoredShape(square, "red");
-WriteLine(redSquare.AsString());
+var colored1 = new ColoredShape(circle, "red");
+var colored2 = new ColoredShape(colored1, "blue");
 
-var redHalfTransparentSquare = new TransparentShape(redSquare, 0.5f);
-WriteLine(redHalfTransparentSquare.AsString());
+WriteLine(colored2.AsString());
