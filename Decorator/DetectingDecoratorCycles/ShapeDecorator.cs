@@ -8,13 +8,13 @@ public class ShapeDecorator : IShape
     public ShapeDecorator(IShape shape)
     {
         this._shape = shape;
-        if (shape is ShapeDecorator sd)
+        if (_shape is ShapeDecorator sd)
         {
             _types.AddRange(sd._types);
         }
     }
 
-    public string AsString()
+    public virtual string AsString()
     {
         throw new NotImplementedException();
     }

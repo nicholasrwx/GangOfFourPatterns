@@ -1,5 +1,7 @@
 namespace DetectingDecoratorCycles;
 
+// Policy that does not allow Cycles of the same type
+
 public class ThrowOnCyclePolicy : ShapeDecoratorCyclePolicy
 {
     private bool handler(Type type, IList<Type> allTypes)
