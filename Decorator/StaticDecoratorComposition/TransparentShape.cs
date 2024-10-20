@@ -9,16 +9,16 @@ public class TransparentShape<T> : Shape where T : Shape, new()
     private readonly float _transparency;
     private readonly T _shape = new T();
 
-    public TransparentShape() : this("black")
+    public TransparentShape() : this(0)
     {
 
     }
 
-    public TransparentShape(string color)
+    public TransparentShape(float transparency)
     {
-        this._color = color ?? throw new ArgumentNullException(paramName: nameof(color));
+        this._transparency = transparency;
 
     }
 
-    public override string AsString() => $"{_shape.AsString()} has the color {_color}";
+    public override string AsString() => $"{_shape.AsString()} has {_transparency * 100.0f}% transparency.";
 }

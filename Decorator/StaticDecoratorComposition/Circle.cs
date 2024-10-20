@@ -4,10 +4,14 @@ public class Circle(float radius) : Shape
 {
     private float _radius = radius;
 
-    public Circle() : this(0)
+    public float _Radius
     {
-
+        get => _radius;
+        set => _radius = value;
     }
+
+    // Default Parameterless Constructor Required For ColoredShape Generic Parameter Constraint new()
+    public Circle() : this(0) { }
 
     public void Resize(float factor)
     {
