@@ -1,9 +1,24 @@
-namespace DetectingDecoratorCycles;
+namespace StaticDecoratorComposition;
 
-public class TransparentShape(IShape shape, float transparency) : IShape
+public class TransparentShape<T> : Shape where T : Shape, new()
+// : TShapeDecorator<ColoredShape, ThrowOnCyclePolicy>
+// : TShapeDecorator<ColoredShape, CyclesAllowedPolicy>
+// : TShapeDecorator<ColoredShape, AbsorbCyclePolicy>
+// : ShapeDecoratorWithPolicy<ColoredShape>
 {
-    private IShape _shape = shape ?? throw new ArgumentNullException(paramName: nameof(shape));
-    private float _transparency = transparency;
+    private readonly float _transparency;
+    private readonly T _shape = new T();
 
-    public string AsString() => $"{shape.AsString()} has {transparency * 100.0}% transparency";
+    public TransparentShape() : this("black")
+    {
+
+    }
+
+    public TransparentShape(string color)
+    {
+        this._color = color ?? throw new ArgumentNullException(paramName: nameof(color));
+
+    }
+
+    public override string AsString() => $"{_shape.AsString()} has the color {_color}";
 }

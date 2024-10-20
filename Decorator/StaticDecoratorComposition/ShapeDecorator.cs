@@ -1,11 +1,11 @@
 namespace StaticDecoratorComposition;
 
-public class ShapeDecorator : IShape
+public class ShapeDecorator : Shape
 {
     protected internal readonly List<Type> _types = [];
-    protected internal IShape _shape;
+    protected internal Shape _shape;
 
-    public ShapeDecorator(IShape shape)
+    public ShapeDecorator(Shape shape)
     {
         this._shape = shape;
         if (_shape is ShapeDecorator sd)
@@ -14,7 +14,7 @@ public class ShapeDecorator : IShape
         }
     }
 
-    public virtual string AsString()
+    public override string AsString()
     {
         throw new NotImplementedException();
     }
